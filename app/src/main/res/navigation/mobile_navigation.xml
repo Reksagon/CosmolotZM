@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/cosmoZMSplash">
+
+    <fragment
+        android:id="@+id/cosmoZMSplash"
+        android:name="com.ho.kosmolot.lot.com.CosmoZMSplash"
+        android:label="fragment_cosmo_z_m_splash"
+        tools:layout="@layout/fragment_cosmo_z_m_splash" >
+        <action
+            android:id="@+id/action_cosmoZMSplash_to_cosmoZMMain"
+            app:destination="@id/cosmoZMMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/cosmoZMMain"
+        android:name="com.ho.kosmolot.lot.com.CosmoZMMain"
+        android:label="fragment_cosmo_z_m_main"
+        tools:layout="@layout/fragment_cosmo_z_m_main" >
+        <action
+            android:id="@+id/action_cosmoZMMain_to_cosmoZMProfile"
+            app:destination="@id/cosmoZMProfile" />
+        <action
+            android:id="@+id/action_cosmoZMMain_to_cosmoZMView"
+            app:destination="@id/cosmoZMView" />
+    </fragment>
+    <fragment
+        android:id="@+id/cosmoZMProfile"
+        android:name="com.ho.kosmolot.lot.com.CosmoZMProfile"
+        android:label="fragment_cosmo_z_m_profile"
+        tools:layout="@layout/fragment_cosmo_z_m_profile" >
+        <action
+            android:id="@+id/action_cosmoZMProfile_to_cosmoZMMain"
+            app:destination="@id/cosmoZMMain" />
+        <action
+            android:id="@+id/action_cosmoZMProfile_to_cosmoZMView"
+            app:destination="@id/cosmoZMView" />
+    </fragment>
+    <fragment
+        android:id="@+id/cosmoZMView"
+        android:name="com.ho.kosmolot.lot.com.CosmoZMView"
+        android:label="fragment_cosmo_z_m_view"
+        tools:layout="@layout/fragment_cosmo_z_m_view" >
+        <action
+            android:id="@+id/action_cosmoZMView_to_cosmoZMMain"
+            app:destination="@id/cosmoZMMain" />
+    </fragment>
+</navigation>

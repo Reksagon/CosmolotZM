@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527769884120",
+    "project_id": "comhokosmolotlotcom",
+    "storage_bucket": "comhokosmolotlotcom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527769884120:android:5209fefeec4a528b3f4ead",
+        "android_client_info": {
+          "package_name": "com.ho.kosmolot.lot.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527769884120-qf5t5t733biij4mnrbg261icloc8gu77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAICQOhe4Kbr29yE8dA80f6XoPT-kKU740"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527769884120-qf5t5t733biij4mnrbg261icloc8gu77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
