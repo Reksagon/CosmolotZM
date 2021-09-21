@@ -11,6 +11,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 
+import com.appsflyer.AppsFlyerLib;
 import com.ho.kosmolot.lot.com.databinding.CosmoZmActivityBinding;
 
 
@@ -24,7 +25,6 @@ public class CosmoZMActivity extends AppCompatActivity {
 
         binding = CosmoZmActivityBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
 
     }
 
